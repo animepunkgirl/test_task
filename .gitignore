@@ -1,0 +1,9 @@
+
+/server/node_modules
+/my-app/node_modules
+/server/package-lock.json
+/my-app/package-lock.json
+/server/.env
+/my-app/.env
+/my-app/build
+.idea

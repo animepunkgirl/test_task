@@ -1,0 +1,37 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+
+  &__pages {
+    margin: 0 auto;
+    display: flex;
+    gap: 0.25rem;
+
+    & > button {
+      display: flex;
+      padding: 7px 14px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+
+      &.active {
+        background-color: #5493ff;
+        color: white;
+      }
+
+      &:disabled {
+        opacity: 0.5;
+      }
+
+      &:hover:not(.active):not(:disabled) {
+        background-color: #ddd;
+      }
+    }
+  }
+
+  &__items-select {
+    display: flex;
+    gap: 0.75rem;
+    font-size: 1.05rem;
+    align-items: center;
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+public
+.env
+.gitignore
+package.json
+package-lock.json
+tsconfig.json
+nodemon.json

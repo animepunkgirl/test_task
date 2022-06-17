@@ -1,0 +1,13 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  z-index: 1;
+  min-width: 100px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px -1px #ddd;
+  overflow: hidden;
+}
